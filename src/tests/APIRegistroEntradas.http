@@ -1,0 +1,21 @@
+POST http://localhost:5020/check-ins
+Content-Type: application/json
+
+{
+  "cpf": "529.982.247-25",
+  "dataHora": "2026-11-11T19:24:00-03:00",
+  "local": "Portaria principal"
+}
+
+###
+
+POST http://localhost:5020/check-ins
+Content-Type: application/json
+
+{
+  "cpf": "529.982.247-24",
+  "dataHora": "2026-11-11T19:24:00-03:00",
+  "local": "Portaria principal"
+}
+
+###
